@@ -1,0 +1,35 @@
+Algorithms are nothing but a approach you follow. 
+
+Suppose you have coin 10, 5,2, 1 value. 
+You need to carry minimum coins in hand that sum value as 28.
+
+Simple, you would opt for highest value coin first. 
+10 + 10 + 5 + 2 + 1
+
+So what did you do ?
+
+You greedily took the max value coin first; to get the result faster. 
+
+This approach is called greedy algorithm.
+
+Pros:
+1. Faster Results
+2. Easy
+3. Simple To Implement
+
+
+Cons:
+1. It might no always give you optimal results
+
+How the con satisfy the real time case. 
+
+Suppose, you have below graph and you want to implement sum of nodes from root to leaf with maximum value. 
+        3
+   4        7
+6    20   9    11
+
+Greedy Algo: You might go with path 3+7+11 = 21 (But this is not optimal solution)
+Actual Path: 3+4+20 = 27. 
+
+
+Hope This helps !!

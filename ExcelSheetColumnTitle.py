@@ -50,3 +50,9 @@ class Solution(object):
 
 res = Solution().convertToTitle(702)
 print res
+
+# Approach
+
+#27 ---> div+rem
+#501 ---> div+rem+rem+rem
+#until div comes in range of 1-26

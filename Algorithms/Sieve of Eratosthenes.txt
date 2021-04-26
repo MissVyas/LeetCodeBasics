@@ -1,0 +1,12 @@
+This is the fastest way to get the prime numbers.
+
+so the process is :
+1. Create list of number  2 to n
+2. According to the algorithm we will mark all the numbers which are divisible by 2 and are greater than or equal to the square of it.
+3. Now we move to our next unmarked number 3 and mark all the numbers which are multiples of 3 and are greater than or equal to the square of it.
+4. and so on
+5. Finally you will get the list of numbers which are non divisible.
+6. This is the final list of prime.
+
+So please note:
+The first bound of loop iterates only till square root of given number.

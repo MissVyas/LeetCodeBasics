@@ -1,0 +1,6 @@
+1. Create a dictionary having key as value in dictionary, Value per key has count of that value.
+   Eg:
+   Given an array: [1,1,2,2,3,3,3,3,4,4]
+   Dictionary to Create: {1:2,2:2,3:4,4:2}
+2. Now get the minimum possible value where the array can be split and check if that value is perfect modulus.
+   i.e num%val(in dict) == 0. Repeat the changes til 2 to length of deck +1

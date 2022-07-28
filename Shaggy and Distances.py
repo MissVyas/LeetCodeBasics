@@ -64,6 +64,7 @@ class Solution:
     def solve(self, A):
         min_dist = sys.maxsize
         dict1 = {}
+        dict
 
         idx = 0
         for i in A:
